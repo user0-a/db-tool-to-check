@@ -1,5 +1,5 @@
 -- V000002_create_users.sql
-CREATE TABLE jazda_jazda (
+CREATE TABLE mama (
     id       BIGINT PRIMARY KEY,
     email    VARCHAR(255) NOT NULL UNIQUE,
     created  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
